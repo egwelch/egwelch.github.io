@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+	color: #E23B7A;
+}
+
+/* visited link */
+a:visited {
+	text-decoration: none;
+    color: #7A7A7A;
+}
+
+/* mouse over link */
+a:hover {
+	text-decoration: none;
+    color: #FF5F9C;
+}
+
+/* selected link */
+a:active {
+	text-decoration: none;
+    color: #FF5F9C;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li a {
+    display: block;
+}
+
+.navigation {
+
+}
+
+.main {
+	width: 80%;
+	max-width: 1000px;
+    margin: auto;
+}
