@@ -1,29 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="./css/style.css" /> 
-	<!--
-		Author: Elizabeth Welch
-		Filename: index.html
-		Since: 2018-02-05
-	-->
-	<title>Lab 2 - Mobile Application Development Tool</title>
-</head>
-<body>
-	<div id="container">
-		<div class="navigation">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="classworks.html">Classworks</a></li>
-				<li>Labs</li>
-				<ol>
-					<li><a href="lab2.html">Lab 2 &mdash; Mobile Application Development Tool</a></li>
-				</ol>
-				<li><a href="projects.html">Projects</a></li>
-			</ul>
-		</div>
+<?php 
+	$title = "Lab 2";
+	
+	include "header.php";
+?>
 
 		<div class="main">
 			<h1 style="text-align: center">Lab 2&ndash;Mobile Application Development Tool</h1>
@@ -121,9 +100,6 @@
 		</div>
 		<!-- end of main -->
 
-		<div class="footer">
-			<p>&copy;Elizabeth Welch - MODE4201 - Winter 2018</p>
-		</div>
-	</div>
-</body>
-</html>
+<?php 
+	include 'footer.php'; 
+?>
