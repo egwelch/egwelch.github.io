@@ -1,18 +1,31 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Classwork 3 &mdash; Information</title>
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/webd2201.css" /> 
+
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" />
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+
+  	<!--
+	Author: Elizabeth Welch
+	<?php 
+		echo "<p>Filename: $filename</p>";
+		echo "<p>Date: $date</p>";
+		echo "<p>Description: $description</p>"; 
+	?>
+	-->
+	<title><?php echo "$title"; ?></title>
 </head>
 
 <body>
 	<div class="container">
-		<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 		    <div class="navbar-header">
 		    	<a class="navbar-brand" href="#">Elizabeth Welch</a>
@@ -42,10 +55,5 @@
 		      	</li>
 		    </ul>
 		</div>
-		</nav>
-  		<h1>My First Bootstrap Page</h1>
-  		<p>This is some text.</p> 
-	</div>
-</body>
-
-</html>
+	</nav>
+	
