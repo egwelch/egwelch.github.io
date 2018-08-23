@@ -1,7 +1,78 @@
 
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
+header, footer {
+    color: white;
+    background-color: black;
+}
+
+/* HEADERS */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    color: rgb(166, 206, 57);
+}
 
 /* NAV */
 
+/* This is for the three line toggler that appears at smaller screen sizes */
+.custom-toggler.navbar-toggler {
+    border-color: rgb(166, 206, 57);
+}
+
 /* LINKS */
 
-/* HEADERS */
+a:link {
+    text-decoration: none;
+    color: rgb(166, 206, 57);
+}
+
+a:visited {
+    color: rgb(166, 206, 57);
+}
+
+a:hover {
+    color: rgb(50, 200, 185);
+}
+
+a:active {
+    color: rgb(166, 206, 57);
+    text-decoration: underline;
+}
+
+/* BODY */
+
+.line-green {
+    width: 100%;
+    margin: 1rem auto;
+    border: 1px solid;
+    border-color: rgb(166, 206, 57); 
+}
+
+.line-black {
+    width: 100%;
+    margin: 1rem auto;
+    border: 1px solid;
+}
+
+
+/* FOOTER */
+
+.social-media-icons {
+    font-size: 2em;
+}
+
+.social-media-icons li {
+    padding: 5px;
+}
