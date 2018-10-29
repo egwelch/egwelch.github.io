@@ -24,6 +24,9 @@ h1 {
     color: rgb(166, 206, 57);
 }
 
+h3 {
+	font-weight: bold;
+}
 /* NAV */
 
 /* This is for the three line toggler that appears at smaller screen sizes */
@@ -55,7 +58,7 @@ a:active {
 
 .line-green {
     width: 100%;
-    margin: 1rem auto;
+    margin: .5rem auto;
     border: 1px solid;
     border-color: rgb(166, 206, 57); 
 }

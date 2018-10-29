@@ -33,7 +33,7 @@
 		  
 		    $(window).scroll(function() {    
 		        var scroll = $(window).scrollTop();
-		        if (scroll >= 100) {
+		        if (scroll >= 100) {t
 		            header.addClass("scrolled");
 		        } else {
 		            header.removeClass("scrolled");
@@ -45,25 +45,120 @@
 </head>
 
 <body>
+	<!-- put a "kitchen sink" with photo, small about, social media on the left -->
 	<div class="container">
 		<h1>Elizabeth Welch</h1>
 
 		<p class="text-muted">Computer Programmer and Graphic Designer</p>
 
 		<hr class="line-black"/>
+		<div class="row">
+			<div class="col-sm col-md-4 order-last order-md-first">
+				<h4>SKILLS</h4>
 
-		<!-- <h3>OBJECTIVE</h3>
+				<hr class="line-green"/>
 
-		<h3>WORK</h3>
+				<p>Programming:
+					<ul>
+						<li>HTML, CSS, PHP, some JavaScript, Java, and a good understanding of Bootstrap</li>
+						<li>C#, C++, VB.NET</li>
+						<li>Microsoft SQL Server Management Studio </li>
+						<li>ASP.NET MVC </li>
+					</ul>
+				</p>
+				<p>Design:
+					<ul>
+						<li>Adobe Creative Suite including:</li>
+						<ul>
+							<li>Illustrator</li>
+							<li>Photoshop</li>
+							<li>InDesign</li>
+						</ul>
+					</ul>
+				</p>
+				<p>Other:
+					<ul>
+					 	<li>Capable of organizing groups of people by assigning tasks that focus on strengths while minimizing weaknesses</li>
+						<li>Organized and self-motivated worker</li>
+					</ul>
+				</p>
 
-		<h3>EDUCATION</h3>
+				<br />
 
-		<h3>SKILLS</h3>
+				<h4>EDUCATION</h4>
 
-		<h3>VOLUNTEER</h3> -->
+				<hr class="line-green"/>
 
+				<p>
+					<strong>Computer Programmer</strong><br/>
+					Durham College, April 2018<br/>
+					<i>Two Year Diploma, Dean’s List</i>
+				</p>
+				<p>
+					<strong>B.A., Graphic Design</strong><br/>
+					Portland State University, December 2013<br/>
+					<i>Earned with a focus on Web Design</i>
+				</p>
+
+			</div>
+
+			<!-- <h3>OBJECTIVE</h3>-->
+			<div class="col-sm col-md-8 order-first">
+				<h4>WORK</h4>
+
+				<hr class="line-green"/>
+
+				<ul class="list-unstyled">
+					<li><strong>Database Developer</strong></li>
+					<li>Durham College ORSIE</li>
+					<li><em>January 2, 2018&ndash;August 31, 2018</em></li>
+					<li><ul>
+						<li class="small">Created database architecture to serve as the new home of a company's existing 20+ years of recorded data with the goal of improving report generation speed and allowing for future database, and company, growth.</li>
+						<li class="small">Used Microsoft SQL Server Management Studio.</li>
+					</ul></li>
+				</ul>
+
+				<ul class="list-unstyled">
+					<li><strong>Web Development and UX Research Assistant</strong></li>
+					<li>Durham College ORSIE</li>
+					<li><em>January 2018&ndash;April 2018</em></li>
+					<li><ul>
+						<li class="small">Worked with one other student to create a MVC based product website.</li>
+						<li class="small">Focused mostly on front-end coding and user experience, with some back-end tied in.</li>
+					</ul></li>
+				</ul>
+
+				<ul class="list-unstyled">
+					<li><strong>Web Development and UX Research Assistant</strong></li>
+					<li>Durham College ORSIE</li>
+					<li><em>February 2018&ndash;July 2018</em></li>
+					<li><ul>
+						<li class="small">Worked with multiple teams of student workers to develop systems to client specifications.</li>
+						<li class="small">One project was front and back-end programming for a company's landing page, the other focused on application development and user experience.</li>
+					</ul></li>
+				</ul>
+
+				<br/>
+
+				<h4>VOLUNTEER / OTHER EXPERIENCE</h4>
+
+				<hr class="line-green"/>
+
+				<ul class="list-unstyled">
+					<li><strong>Friendtorship</strong></li>
+					<li>October 2013–December 2013</li>
+					<li>Portland State University</li>
+					<li><ul>
+						<li class="small">Worked with high schoolers from Centennial Park School to make art and nurture creativity.</li>
+						<li class="small">Organized and ran workshops with the students.</li>
+					</ul></li>
+				</ul>
+			</div>
+		</div>
+
+		<hr class="line-black"/>
 		<div>
-			<p>Sorry! I'm still preparing my website, but if you would like to see my resume, please <a href="./files/ElizabethWelch_Resume_ForWeb.pdf">click here</a>.</p>
+			<p class="text-center">If you would like a pdf copy of my resume, please <a href="./files/ElizabethWelch_Resume_ForWeb.pdf">click here</a>.</p>
 		</div>
 
 		<div class="social-media-icons">
